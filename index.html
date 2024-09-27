@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lalit Mohan Joshi - AI Engineer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="sphere-container"></div>
+    <header>
+        <nav>
+            <div class="logo">LMJ</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="theme-switch-wrapper">
+                <span class="theme-label light-label">Light</span>
+                <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox" />
+                    <div class="slider round"></div>
+                </label>
+                <span class="theme-label dark-label">Dark</span>
+            </div>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="parallax" data-speed="0.5">
+            <div class="content">
+                <h1>Lalit Mohan Joshi</h1>
+                <p>I'm an <span class="dynamic-text"></span></p>
+                <a href="#about" class="cta-button">Discover My Work</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="content">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <img src="./profile.jpg" alt="Lalit Mohan Joshi" class="profile-img">
+                    <div class="about-text">
+                        <p>As an AI and ML student at Galgotias University, I'm passionate about pushing the boundaries of artificial intelligence and machine learning. My goal is to develop innovative solutions that can make a significant impact in various industries.</p>
+                        <p>With a strong foundation in computer science and a keen interest in cutting-edge technologies, I constantly strive to learn and apply new concepts in my projects. From natural language processing to computer vision, I'm always excited to tackle new challenges in the world of AI.</p>
+                        <a href="assets/Lalit_Mohan_Joshi_CV.pdf" class="cta-button" download>Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="parallax" data-speed="0.3">
+            <div class="content">
+                <h2>Skills</h2>
+                <div id="skills-container" class="skills-container">
+                    <!-- Skills will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="content">
+                <h2>Projects</h2>
+                <div class="projects-container">
+                    <div class="project-item">
+                        <img src="images/face-recognition-system.jpg" alt="Face Recognition System" class="project-image">
+                        <div class="project-info">
+                            <h3>Face Recognition System</h3>
+                            <p>Developed a real-time face recognition system using deep learning techniques. The system can identify multiple faces in a video stream, with applications in security and user authentication.</p>
+                            <a href="#" class="project-link">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <img src="images/ai-personal-assistant.jpg" alt="AI-Powered Personal Assistant" class="project-image">
+                        <div class="project-info">
+                            <h3>AI-Powered Personal Assistant</h3>
+                            <p>Created a sophisticated personal assistant using natural language processing and machine learning, capable of understanding context and performing complex tasks.</p>
+                            <a href="#" class="project-link">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <img src="images/autonomous-drone-navigation.jpg" alt="Autonomous Drone Navigation" class="project-image">
+                        <div class="project-info">
+                            <h3>Autonomous Drone Navigation</h3>
+                            <p>Implemented an AI system for autonomous drone navigation using computer vision and reinforcement learning. The drone can navigate complex environments and avoid obstacles in real-time.</p>
+                            <a href="#" class="project-link">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <img src="images/medical-image-analysis.jpg" alt="Medical Image Analysis" class="project-image">
+                        <div class="project-info">
+                            <h3>Medical Image Analysis</h3>
+                            <p>Developed a deep learning model for analyzing medical images, specifically for detecting abnormalities in X-rays and MRI scans. The system aids in early diagnosis of various conditions.</p>
+                            <a href="#" class="project-link">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <img src="images/nlp-chatbot.jpg" alt="Natural Language Processing Chatbot" class="project-image">
+                        <div class="project-info">
+                            <h3>Natural Language Processing Chatbot</h3>
+                            <p>Built an advanced chatbot using NLP techniques, capable of understanding and generating human-like responses. The chatbot can be integrated into various platforms for customer support.</p>
+                            <a href="#" class="project-link">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <img src="images/predictive-maintenance-system.jpg" alt="Predictive Maintenance System" class="project-image">
+                        <div class="project-info">
+                            <h3>Predictive Maintenance System</h3>
+                            <p>Created a predictive maintenance system using IoT sensors and machine learning algorithms to forecast equipment failures and optimize maintenance schedules in industrial settings.</p>
+                            <a href="#" class="project-link">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="parallax" data-speed="0.2">
+            <div class="content">
+                <h2>Contact Me</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> joshimohanlalit1303@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> +91 7455836613</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Galgotias University, Greater Noida, India</p>
+                    </div>
+                    <form id="contact-form">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="cta-button">Send Message</button>
+                    </form>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/joshi.lalit.2006/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Lalit Mohan Joshi. All rights reserved.</p>
+    </footer>
+
+    <div class="custom-cursor"></div>
+</body>
+</html>
